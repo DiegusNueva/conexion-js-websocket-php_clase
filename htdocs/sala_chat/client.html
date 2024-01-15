@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/client.js"></script>
+</head>
+
+    <body onload="init()">
+        <h3>WebSocket v.2.00 (TuniverS)</h3>
+        <div id="log"></div>
+        <input id="msg" type="textbox" onkeypress="onkey(event)" />
+        <button onclick="send()">Enviar</button>
+        <button onclick="quit()">Salir</button>
+        <button onclick="reconnect()">Reconectar</button>
+    </body>
+
+</html>
