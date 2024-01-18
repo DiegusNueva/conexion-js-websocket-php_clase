@@ -39,6 +39,7 @@ const init = () => {
 const send = () => {
     let txt, msg
     txt = $("msg")
+    msg = txt.value
     //txt = document.getEelementById("msg")
     if (!msg) {
         alert("El mensaje no puede estar vacío")
